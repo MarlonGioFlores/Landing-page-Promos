@@ -28,18 +28,18 @@ header {
 }
 
 nav {
-    display: inline-block;
-    float: right;
+    display: flex;
+    justify-content: flex-end;
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
 }
 
 nav ul li {
-    display: inline;
     margin-left: 20px;
 }
 
@@ -49,6 +49,7 @@ nav ul li a {
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
 }
+
 
 .section {
     background-color: #921A40;
